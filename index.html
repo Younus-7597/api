@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="hsl(212, 61%, 51%)">
+    <meta name="msapplication-navbutton-color" content="hsl(212, 61%, 51%)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="hsl(212, 61%, 51%)">
+    <link rel="icon" href="images/favicon/favicon.svg" sizes="any" type="image/svg+xml">
+    <meta name="author" content="Younus Mohammed">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <title>Mohammed Younus</title>
+</head>
+
+<body class="qwasd">
+    <header class="shade">
+        <div class="logoTop" onclick="mobNav()">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/header/logo.svg" class="logoImg">
+                    <div class="logoImg" style="display: none;">YOUNUS</div>
+                </a>
+            </div>
+            <div class="hamburger">
+                <div class="hamburgerLine"></div>
+                <div class="hamburgerLine"></div>
+                <div class="hamburgerLine"></div>
+            </div>
+        </div>
+        <nav style="left: -100%;">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">DISCOVER</a></li>
+                <li class="children">
+                    <label for="drop-1" class="dropLabel"></label>
+                    <input type="checkbox" class="dropInput" id="drop-1">
+                    <a href="#" style="padding-right: 50px;">SHOP</a>
+                    <img src="images/header/arrowDown.svg" class="arrowDown">
+                    <ul class="childList">
+                        <li><a href="#"><span class="dash">- </span>MEN</a></li>
+                        <li><a href="#"><span class="dash">- </span>WOMEN</a></li>
+                        <li><a href="#"><span class="dash">- </span>KIDS</a></li>
+                    </ul>
+                </li>
+                <li class="children">
+                    <label for="drop-2" class="dropLabel"></label>
+                    <input type="checkbox" class="dropInput" id="drop-2">
+                    <a href="#" style="padding-right: 50px;">ABOUT</a>
+                    <img src="images/header/arrowDown.svg" class="arrowDown">
+                    <ul class="childList">
+                        <li><a href="#"><span class="dash">- </span>HISTORY</a></li>
+                        <li><a href="#"><span class="dash">- </span>CONTACT</a></li>
+                    </ul>
+                </li>
+                <li onclick="darkMode()">
+                    <a style="padding:0; margin:0;">
+                        <img class="darkModeIcon" src="images/header/sun.svg">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="shade">
+        <section class="section1">
+            <div class="ip"></div>
+            <div class="wrapper">
+                <div class="ipapi"></div>
+                <div class="iframe invert"><iframe height="100%" width="100%" border="0" marginwidth="0"
+                        marginheight="0"></iframe></div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="wrapper"></div>
+            <div class="bottom"></div>
+        </section>
+
+    </main>
+    <!-- main end -->
+
+    <footer class="shade">
+        <div class="min">
+            <div class="left">© Mohammed Younus</div>
+            <div class="right"><a href="https://mohammedyounusmushfiq.tk/" target="_blank">mohammedyounusmushfiq.tk</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
